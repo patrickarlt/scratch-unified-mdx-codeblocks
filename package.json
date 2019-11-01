@@ -1,0 +1,22 @@
+{
+  "name": "scratch-unified-mdx-codeblocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/generator": "^7.6.4",
+    "@babel/parser": "^7.6.4",
+    "@babel/traverse": "^7.6.3",
+    "@babel/types": "^7.6.3",
+    "remark": "^11.0.1",
+    "remark-mdx": "^1.5.1",
+    "to-vfile": "^6.0.0",
+    "unist-util-visit": "^2.0.0"
+  }
+}
